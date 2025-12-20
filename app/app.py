@@ -16,6 +16,7 @@ countries_dropdown = st.selectbox("Select the country name", countries_list)
 
 # streamlit - ui
 st.title("AQI Status")
+st.markdown("Select the country name to view the AQI values")
 st.write(f"Selected country is: {countries_dropdown}")
 
 # analytics
